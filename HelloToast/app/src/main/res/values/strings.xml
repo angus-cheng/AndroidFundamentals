@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Hello Toast</string>
-    <string name="button_label_toast">Toast</string>
-    <string name="button_label_count">Count</string>
+    <string name="app_name">Crystal\'s Kick Counter</string>
+    <string name="button_label_toast">What is this?</string>
+    <string name="button_label_count">Kick me!</string>
     <string name="count_initial_value">0</string>
-    <string name="toast_message">Crystal kicks!</string>
+    <string name="toast_message">This app records how many times Crystal has kicked me</string>
     <string name="kicks10">Ouch. This is a lot of kicks</string>
     <string name="kicks20">Wow. So many kicks. Such strong legs. Show me your legs!!!</string>
     <string name="kicks30">Please stop. I\'m already dead!!!</string>
