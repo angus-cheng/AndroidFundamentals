@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">ActivitiesAndIntentsChallenge</string>
+    <string name="button_1_text">5/10 text</string>
+    <string name="button_2_text">7/10 text</string>
+    <string name="button_3_text">Okie text</string>
+    <string name="activity_two_title">Okie Chapters</string>
+    <string name="button_1_passage">1 Paul, Silas and Timothy,
+\n\n
+To the church of the Thessalonians in God our Father and the Lord Jesus Christ:
+\n\n
+2 Grace and peace to you from God the Father and the Lord Jesus Christ.
+\n\n
+        Thanksgiving and Prayer
+        \n\n
+3 We ought always to thank God for you, brothers and sisters, and rightly so, because your faith is growing more and more, and the love all of you have for one another is increasing. 4 Therefore, among God’s churches we boast about your perseverance and faith in all the persecutions and trials you are enduring.
+\n\n
+5 All this is evidence that God’s judgment is right, and as a result you will be counted worthy of the kingdom of God, for which you are suffering. 6 God is just: He will pay back trouble to those who trouble you 7 and give relief to you who are troubled, and to us as well. This will happen when the Lord Jesus is revealed from heaven in blazing fire with his powerful angels. 8 He will punish those who do not know God and do not obey the gospel of our Lord Jesus. 9 They will be punished with everlasting destruction and shut out from the presence of the Lord and from the glory of his might 10 on the day he comes to be glorified in his holy people and to be marveled at among all those who have believed. This includes you, because you believed our testimony to you.
+\n\n
+11 With this in mind, we constantly pray for you, that our God may make you worthy of his calling, and that by his power he may bring to fruition your every desire for goodness and your every deed prompted by faith. 12 We pray this so that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.</string>
+    <string name="button_2_passage">On Denying the Incarnation
+        \n\n
+4 Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world. 2 This is how you can recognize the Spirit of God: Every spirit that acknowledges that Jesus Christ has come in the flesh is from God, 3 but every spirit that does not acknowledge Jesus is not from God. This is the spirit of the antichrist, which you have heard is coming and even now is already in the world.
+        \n\n
+4 You, dear children, are from God and have overcome them, because the one who is in you is greater than the one who is in the world. 5 They are from the world and therefore speak from the viewpoint of the world, and the world listens to them. 6 We are from God, and whoever knows God listens to us; but whoever is not from God does not listen to us. This is how we recognize the Spirit of truth and the spirit of falsehood.
+\n\n
+God’s Love and Ours
+        \n\n
+7 Dear friends, let us love one another, for love comes from God. Everyone who loves has been born of God and knows God. 8 Whoever does not love does not know God, because God is love. 9 This is how God showed his love among us: He sent his one and only Son into the world that we might live through him. 10 This is love: not that we loved God, but that he loved us and sent his Son as an atoning sacrifice for our sins. 11 Dear friends, since God so loved us, we also ought to love one another. 12 No one has ever seen God; but if we love one another, God lives in us and his love is made complete in us.
+\n\n
+13 This is how we know that we live in him and he in us: He has given us of his Spirit. 14 And we have seen and testify that the Father has sent his Son to be the Savior of the world. 15 If anyone acknowledges that Jesus is the Son of God, God lives in them and they in God. 16 And so we know and rely on the love God has for us.
+\n\n
+God is love. Whoever lives in love lives in God, and God in them. 17 This is how love is made complete among us so that we will have confidence on the day of judgment: In this world we are like Jesus. 18 There is no fear in love. But perfect love drives out fear, because fear has to do with punishment. The one who fears is not made perfect in love.
+\n\n
+19 We love because he first loved us. 20 Whoever claims to love God yet hates a brother or sister is a liar. For whoever does not love their brother and sister, whom they have seen, cannot love God, whom they have not seen. 21 And he has given us this command: Anyone who loves God must also love their brother and sister.</string>
+    <string name="button_3_passage">Giving to the Needy
+        \n\n
+6 “Be careful not to practice your righteousness in front of others to be seen by them. If you do, you will have no reward from your Father in heaven.
+\n\n
+2 “So when you give to the needy, do not announce it with trumpets, as the hypocrites do in the synagogues and on the streets, to be honored by others. Truly I tell you, they have received their reward in full. 3 But when you give to the needy, do not let your left hand know what your right hand is doing, 4 so that your giving may be in secret. Then your Father, who sees what is done in secret, will reward you.
+\n\n
+Prayer
+        \n\n
+5 “And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners to be seen by others. Truly I tell you, they have received their reward in full. 6 But when you pray, go into your room, close the door and pray to your Father, who is unseen. Then your Father, who sees what is done in secret, will reward you. 7 And when you pray, do not keep on babbling like pagans, for they think they will be heard because of their many words. 8 Do not be like them, for your Father knows what you need before you ask him.
+\n\n
+9 “This, then, is how you should pray:
+\n\n
+“‘Our Father in heaven,
+        \n
+hallowed be your name,
+        \n
+10 your kingdom come,
+        \n
+your will be done,
+        \n
+    on earth as it is in heaven.
+        \n
+11 Give us today our daily bread.
+        \n
+12 And forgive us our debts,
+        \n
+    as we also have forgiven our debtors.
+        \n
+13 And lead us not into temptation,
+        \n
+    but deliver us from the evil one.’
+\n\n
+14 For if you forgive other people when they sin against you, your heavenly Father will also forgive you. 15 But if you do not forgive others their sins, your Father will not forgive your sins.
+\n\n
+Fasting
+16 “When you fast, do not look somber as the hypocrites do, for they disfigure their faces to show others they are fasting. Truly I tell you, they have received their reward in full. 17 But when you fast, put oil on your head and wash your face, 18 so that it will not be obvious to others that you are fasting, but only to your Father, who is unseen; and your Father, who sees what is done in secret, will reward you.
+\n\n
+        Treasures in Heaven
+        \n\n
+19 “Do not store up for yourselves treasures on earth, where moths and vermin destroy, and where thieves break in and steal. 20 But store up for yourselves treasures in heaven, where moths and vermin do not destroy, and where thieves do not break in and steal. 21 For where your treasure is, there your heart will be also.
+\n\n
+22 “The eye is the lamp of the body. If your eyes are healthy, your whole body will be full of light. 23 But if your eyes are unhealthy, your whole body will be full of darkness. If then the light within you is darkness, how great is that darkness!
+\n\n
+24 “No one can serve two masters. Either you will hate the one and love the other, or you will be devoted to the one and despise the other. You cannot serve both God and money.
+\n\n
+        Do Not Worry
+        \n\n
+25 “Therefore I tell you, do not worry about your life, what you will eat or drink; or about your body, what you will wear. Is not life more than food, and the body more than clothes? 26 Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they? 27 Can any one of you by worrying add a single hour to your life?
+\n\n
+28 “And why do you worry about clothes? See how the flowers of the field grow. They do not labor
+        or spin. 29 Yet I tell you that not even Solomon in all his splendor was dressed like one
+        of these. 30 If that is how God clothes the grass of the field, which is here today and
+        tomorrow is thrown into the fire, will he not much more clothe you—you of little faith?
+        31 So do not worry, saying, ‘What shall we eat?’ or ‘What shall we drink?’ or ‘What shall
+        we wear?’ 32 For the pagans run after all these things, and your heavenly Father knows
+        that you need them. <b>33 But seek first his kingdom and his righteousness, and all these
+        things will be given to you as well. 34 Therefore do not worry about tomorrow, for
+            tomorrow will worry about itself. Each day has enough trouble of its own.</b>
+</string>
+    <string name="button_1_title">2 Thessalonians 1</string>
+    <string name="button_2_title">1 John 4</string>
+    <string name="button_3_title">Matthew 6</string>
+</resources>
