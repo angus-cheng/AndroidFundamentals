@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ActivityLifecycleAndStateChallnege</string>
+    <string name="empty_text" />
+    <string name="cheese">Cheese</string>
+    <string name="ham">Ham</string>
+    <string name="bread">Bread</string>
+    <string name="noodles">Noodles</string>
+    <string name="crystal">Crystal</string>
+    <string name="bicycle">Bicycle</string>
+    <string name="soccer_ball">Soccer ball</string>
+    <string name="fountain_pen">Fountain pen</string>
+    <string name="sexy_legs">Sexy legs</string>
+</resources>
