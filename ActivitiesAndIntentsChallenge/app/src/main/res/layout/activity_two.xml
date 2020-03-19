@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_two">
+    tools:context=".activity_two"
+    android:background="@android:color/black" >
 
     <TextView
         android:id="@+id/text1_title"
@@ -36,7 +37,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:padding="@dimen/padding_regular"/>
+                android:padding="@dimen/padding_regular"
+                android:textColor="@android:color/white"/>
         </LinearLayout>
     </ScrollView>
 

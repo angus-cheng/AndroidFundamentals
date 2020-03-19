@@ -1,17 +1,24 @@
 package com.example.activitylifecycleandstatechallnege;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.text.InputType;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toolbar;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -20,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     public static final int ADD_ITEM_REQUEST = 1;
 
     private ArrayList<TextView> mTexts = new ArrayList<>();
+    private String mLocation = "";
+    private LinearLayout mLinearLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     snackbar.setDuration(10000);
                     snackbar.show();
                 }
-                launch_shopping_items(view);
+                launchShoppingItems(view);
             }
         });
 
@@ -78,9 +87,11 @@ public class MainActivity extends AppCompatActivity {
                 mTexts.add(text);
             }
         }
+
+
     }
 
-    public void launch_shopping_items(View view) {
+    public void launchShoppingItems(View view) {
         Intent intent = new Intent(this, shopping_items.class);
         startActivityForResult(intent, ADD_ITEM_REQUEST);
     }
@@ -109,5 +120,57 @@ public class MainActivity extends AppCompatActivity {
             mTextsStringArray.add(mTexts.get(i).getText().toString());
         }
         outState.putStringArrayList("Saved texts", mTextsStringArray);
+    }
+
+    public void findClosestShoppingStore(View view) {
+        /*
+        AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+        builder.setTitle("Title");
+        final EditText input = new EditText(this);
+        input.setInputType(InputType.TYPE_CLASS_TEXT);
+        builder.setView(input);
+
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            mLocation = input.getText().toString();
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+
+        builder.show();
+         */
+
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View dialogView = inflater.inflate(R.layout.alert_dialog, null);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        onCreateView(dialogView, "view", MainActivity.this, null) {
+            final EditText text = (EditText) findViewById(R.id.address);
+            final Button addressButton = findViewById(R.id.address_button_id);
+            addressButton.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View view) {
+                    String addressValue = text.getText().toString();
+                }
+            });
+        };
+        builder.setView(dialogView);
+        builder.setTitle("Find the closest shop for your items");
+        builder.setMessage("Enter your location");
+        builder.show();
+    }
+
+    public void openLocation(String location) {
+        Uri addressUri = Uri.parse("geo:0,0?q=" + location);
+        Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.d("ImplicitIntents", "Can't handle this intent!");
+        }
     }
 }

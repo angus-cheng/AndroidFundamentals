@@ -93,6 +93,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     *
+     * @param view
+     */
     public void launchSecondActivity(View view) {
         Log.d(LOG_TAG, "Button clicked!");
         // When Send button clicked, MainActivity sends Intent to Android system to launch

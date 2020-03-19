@@ -15,7 +15,17 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
         android:src="@drawable/ic_add_24dp"
-        android:onClick="launch_shopping_items"
+        android:onClick="launchShoppingItems"
+        app:fabSize="normal"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_shopping_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_location_24dp"
+        android:onClick="findClosestShoppingStore"
         app:fabSize="normal"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
